@@ -1,0 +1,16 @@
+node_modules/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+!.env.template
+*.db
+*.sqlite
+package-lock.json
+dist/
+build/
+coverage/
+*.pem
+*.key
+c6-revenue-export.csv

@@ -1,0 +1,37 @@
+{
+  "name": "@carbon6/launch",
+  "version": "2.0.0",
+  "description": "C6 Launch — Auto-package OceanDeep solutions into ship-ready public repos with revenue capture. Powered by CARBON[6]",
+  "type": "module",
+  "bin": {
+    "c6-launch": "./bin/launch.js"
+  },
+  "scripts": {
+    "start": "node bin/launch.js",
+    "list": "node bin/launch.js list",
+    "package": "node bin/launch.js package",
+    "gateway": "node bin/launch.js gateway",
+    "revenue": "node bin/launch.js revenue"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VltrnOne/c6-launch.git"
+  },
+  "keywords": [
+    "carbon6",
+    "oceandeep",
+    "cli",
+    "revenue",
+    "api-gateway",
+    "sdk"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1"
+  },
+  "author": "Carbon6",
+  "license": "MIT"
+}
